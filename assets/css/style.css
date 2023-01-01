@@ -1,0 +1,96 @@
+body{
+    font-family: 'Rubik', sans-serif;
+}
+
+html{
+    --mainColor:rgb(40, 38, 38);
+    --subColor: #ffc800;
+    --mainTextColor:white;
+    --subTextColor: #ffc800;
+}
+nav{
+    background-color: var(--mainColor);
+
+}
+
+nav .logo{
+    font-size: 2em;
+    color: var(--subTextColor);
+    font-weight: 700;
+    text-transform: uppercase;
+    transition: 0.3s;
+}
+
+nav .nav-content {
+    flex-direction: row-reverse;
+    font-size: 18px;
+    color: var(--mainTextColor);
+}
+
+nav .nav-content .nav-link{
+    color: var(--mainTextColor);
+    margin-left:1.7em ;
+    transition: 0.3s;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+nav .nav-content .nav-link:hover{
+    color: var(--subTextColor);
+}
+
+nav .btn-toggle{
+    background-color: var(--mainTextColor);
+}
+
+.header{
+    width: 100%;
+    height: 89.5vh;
+    background: url(../img/header-bg.jpg) no-repeat center center/cover;
+    display: flex;
+    align-items: center;
+}
+.header .container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: var(--mainTextColor);
+}
+
+.header .container h1{
+    font-size: 3em;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 0.5em;
+}
+
+.header .container p{
+    width: 100%;
+    font-size: 3em;
+    font-weight: 500;
+    margin-bottom: 1em;
+}
+
+.header .container button{
+    background-color: var(--subTextColor);
+    color: var(--mainTextColor);
+    padding: .8em 1em;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.5em;
+    font-weight: 500;
+    transition: 0.3s;
+    box-shadow: none;
+    
+}
+
+.services{
+    width: 100%;
+    height: 89.5vh;
+    background-color: var(--mainTextColor);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
